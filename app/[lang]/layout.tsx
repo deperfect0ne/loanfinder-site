@@ -15,9 +15,9 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] })
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang: rawLang } = await params
+  const { lang: rawLang } = params
   const lang = i18n.locales.includes(rawLang) ? rawLang : i18n.defaultLocale
 
   return {
@@ -45,9 +45,9 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang: rawLang } = await params
+  const { lang: rawLang } = params
   const lang = i18n.locales.includes(rawLang) ? rawLang : i18n.defaultLocale
 
   return (
