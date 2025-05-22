@@ -1,0 +1,248 @@
+{
+  "common": {
+    "calculatorTitle": "Laenukalkulaator",
+    "creditorsTitle": "Laenupakkujad",
+    "loanTypesTitle": "Laenutüübid",
+    "contactTitle": "Võta meiega ühendust",
+    "submitButton": "Saada",
+    "amount": "Summa",
+    "term": "Periood",
+    "interest": "Intress",
+    "benefits": "Eelised",
+    "moreInfo": "Rohkem infot",
+    "visitWebsite": "Külasta veebilehte",
+    "loanDetails": "Laenu detailid",
+    "monthlyPayment": "Kuumakse",
+    "totalPayment": "Kogumakse",
+    "email": "E-post",
+    "name": "Nimi",
+    "message": "Sõnum",
+    "successMessage": "Teie sõnum on edukalt saadetud!",
+    "errorMessage": "Vabandame, sõnumi saatmisel tekkis viga. Palun proovige hiljem uuesti."
+  },
+  "pages": {
+    "/": {
+      "h1": "Kiirlaen",
+      "metatitle": "Kiirlaenud: Kiiresti Raha Internetist 24/7 – Parimad Pakkumised",
+      "metadescription": "Leia parim ja soodsaim kiirlaen internetist kohe kätte või 24/7. Võrdle kiireid laenupakkujaid ja taotle raha ilma pangakontole minemata.",
+      "sisu": "Leht keskendub kiirlaenudele, mis on tuntud oma kiiruse ja internetipõhise taotlemise poolest. Hõlmab teemasid nagu kiirlaenu võtmine, taotlemine, kohe kätte saamine, 24/7 kättesaadavus, uued ja odavad kiirlaenud, pakkujad ja firmad, taotlemine internetist, nädalavahetusel, smart-ID või ID-kaardiga, eraisikult ning võimalused saada kiiresti raha. Samuti käsitletakse spetsiifilisi kiirlaene nagu SMS-kiirlaenud ja kiirlaenud välismaalt.",
+      "keywords": "kiirlaen, kiirlaenud, laenud kiirelt, kiire laen, kiirlaenu taotlemine, kiirlaenu võtmine, kiired laenud, kiiresti raha vaja, kiirlaen internetist, kiirlaenud internetist, kiirlaenud internetis, lühiajaline laen, kiirelt raha, kiirlaenu võlglased, mis on kiirlaen, kiirlaen nädalavahetusel, uued kiirlaenud, auto kiirlaenud, kiirlaenud nädalavahetusel, soome kiirlaenud, palgapäeva laen, kiiresti laenu, kiirlaenud kiirelt, kiirlaenude võrdlus, kiirlaen otse pangakontole, kiirlaen kohe kätte, laen kohe kätte, kiirlaen kohe, laen kiirelt kätte, kiirlaenud kohe kätte, kiirlaen vastus kohe, laenud kohe, kiirlaenud eestis, kiirlaen eestis, kiirlaen eesti, kiirlaenud eesti, kiirlaenu pakkujad, kiirlaenufirmad, kiirlaen 24 7, kiirlaen 24h, uus kiirlaen, kiirlaen uus, odav kiirlaen, soodne kiirlaen, soodsaim kiirlaen, odavaim kiirlaen, soodsad kiirlaenud, kust saada kiiresti laenu, kuidas saada kiiresti raha, kust saada kiiresti raha, kuidas saada kiirlaenu, kust saada kiirlaenu, kiirlaen välismaalt, kiirlaenud soomes, kiirlaen soomes, kiirlaen 1 minutiga, kiirlaen 15 minutiga, kiirlaen 5 minutiga, kiirlaen eraisikult, kiirlaenud eraisikutelt, parim kiirlaen, parimad kiirlaenud, kiirlaen kodust lahkumata, kiirlaenud kodust lahkumata, kiirlaen smart id, kiirlaen id kaardiga, kiirlaen id kaardiga tuvastamine, kiirlaenud id kaardiga, tagatiseta kiirlaenud, kiirlaenud ilma tagatiseta, kiirlaen tagatiseta, kiirlaenud tagatiseta, kiirlaen sularahas, kiirlaenud sularahas, kiirlaenu refinantseerimine, kiirlaen töötule, sms kiirlaen, sms kiirlaenud, kiirlaen maksehäirega, kiirlaen kehtiva maksehäirega, kiirlaen maksehäiretega, kiirlaen ilma tuvastamiseta, kiirlaenud ilma tuvastamiseta, kiirlaen ilma isiku tuvastamiseta"
+    },
+    "/laenud/": {
+      "h1": "Laenud",
+      "metatitle": "Laenud Eestis: Võrdle Väikelaenu, Tarbimislaenu, Kodulaenu ja Muid Laenutüüpe",
+      "metadescription": "Leia sobiv laenupakkumine Eestis. Ülevaade erinevatest laenutüüpidest, tingimustest ja laenukalkulaatoritest.",
+      "sisu": "See on peamine laenude kategooria leht, mis tutvustab erinevaid laenutüüpe ja nende üldiseid aspekte. Siit leiab infot laenamise, laenutaotluse, laenu saamise tingimuste, laenuandjate ja pakkujate kohta. Lehel käsitletakse ka intressimäärasid, annuiteetgraafikuid ja laenukalkulaatoreid üldiselt. See leht toimib navigatsioonikeskusena alamlehtedele, mis käsitlevad spetsiifilisi laenutüüpe ja tingimusi.",
+      "keywords": "laen, laenud, laenud eestis, laen eestis, krediit, mobiilne laen, raha laen, pakun laenu, aitan laenu saamisel, maksimaalne laenusumma, laena raha, laenamine, kust saada laenu kui pank ei anna, laenutaotlus, online laen, uus laen, soodne laen, raha laenamine, lihtne laen, laenupakkumised, laenu taotlemine, laenu võtmine, laenude võrdlus, uued laenud, laenud kiirelt kätte, odav laen, kust saada laenu, laenukeskus, allutatud laen, laen käendajaga, laen tallinn, raha kohe kätte, laenu andmine, laenuabi, laenu saamine, laen 24, laenupakkumine, lisalaen, soodsaim laen, laenuühistu, laen vastus kohe, soovin laenu, parim laen, pank ei anna laenu, pangalaenud, laenu saamise tingimused, laen nädalavahetusel, laenu taotlus, pangalaenu taotlemine, ühishüpoteek, rahalaen, laen kodust lahkumata, kust võtta laenu, laenud id kaardi tuvastamisega, laen postkontorist kätte, laen id kaardiga, laen 24h, kõik laenud, laenuteenused, võtan laenu, laenu võtmine pangast, laenu taotlemise tingimused, laenu kaastaotleja tingimused, laenu võtmise tingimused, laenu võtmine kaastaotlejaga, laenuintresside võrdlus, laenu kuumakse, parimad laenupakkumised, laen käest kätte, kõige soodsam laen, laenu konsultatsioon, laenupakkujad, laenukontorid, laenuandjad, uued laenufirmad, uued laenupakkujad, laenupakkujad eestis, laenud sularahas, annan laenu sularahas, sularaha laen, laen sularahas kätte, reisilaen, laenud noortele, laen 18 aastasele, laen 18 aastastele, laen pensionärile, laenud pensionäridele, laen ilma töökohata, laenud töötule, laen võlgade katteks, laen kuni 10000, laenud kuni 10000, laen 1000, laen 10000, laenud kuni 5000, laen 500, laen 15000, laen 5000, laen 500 eurot, laen kuni 1000, laenud kuni 20000, laen 2000 eurot, laen 20000, laen 10000 eurot, laen kuni 20000, laen kuni 3000, laen kuni 30000, laenud kuni 15000, laen 500 eur, laenud kuni 50000, laen 25000, laen kuni 25000, laenud kuni 1000, laenud internetist, laenud internetis, intressimäär, laenuintress, intressimäära arvutamine, laenu intress, laen ilma intressita, laen väikese intressiga, väikese intressiga laen, laenu intresside deklareerimine, minimaalne laenuintress, mis on laenuintress, intressita laen, intressivaba laen, annuiteet, annuiteetgraafik, annuiteedi kalkulaator, laenukalkulaator, maksimaalne laenusumma kalkulaator, intressi kalkulaator, maksimaalne laenukalkulaator, laenusumma kalkulaator, intressi arvutamine, intressikalkulaator, intressi arvutamise kalkulaator, laenu intressi kalkulaator, laenu intressi arvestamine, fikseeritud põhiosaga laenukalkulaator, laenu intressi arvutamine, max laenukalkulaator, laenukindlustus, laen tagatisega"
+    },
+    "/laenud/vaikelaen": {
+      "h1": "Väikelaen",
+      "metatitle": "Väikelaen Eraisikule: Kiire ja Soodne – Ilma Tagatise ja Pangaväljavõtteta",
+      "metadescription": "Leia parim väikelaen eraisikule. Võrdle intresse ja tingimusi kiireks väikelaenuks ilma tagatiseta, konto väljavõtteta või sissetulekuta. Kasuta väikelaenu kalkulaatorit.",
+      "sisu": "Leht annab põhjaliku ülevaate väikelaenudest. Käsitletakse erinevaid pakkumisi, intresse ja tingimusi. Infot leiab kiire, soodsa, uue ja parima väikelaenu kohta, samuti taotlemise kohta eraisikuna. Eraldi tuuakse välja võimalused väikelaenuks ilma tagatiseta, konto väljavõtteta, palgatõendita ja sissetulekuta, samuti väikelaen maksehäirega. Lehel on ka väikelaenu kalkulaator.",
+      "keywords": "väikelaen, väikelaenud, väikelaenu kalkulaator, soodsaim väikelaen, kiire väikelaen, uus väikelaen, väikelaenu pakkujad, väikelaen kohe kätte, parim väikelaen, soodne väikelaen, väikelaenu intress, väikelaen kiirelt, väikelaenud tagatiseta, väikelaen firmale, kõige soodsam väikelaen, väikelaen firmadele, väikelaen 15000, tagatiseta väikelaenud, väikelaenud eraisikutelt, väikelaenud firmadele, väikelaen ilma tagatiseta, parima intressiga väikelaen, odav väikelaen, odavaim väikelaen, väikelaenu tingimused, väikelaen maksehäirega, väikelaenud maksehäirega, väikelaen ilma konto väljavõtteta, väikelaen ilma palgatõendita, väikelaen ilma sissetulekuta, väikelaen sularahas, väike autolaen, auto väikelaen"
+    },
+    "/laenuleping": {
+      "h1": "Laenuleping",
+      "metatitle": "Laenuleping: Oluline Dokument Laenamisel – Näidis ja Tähelepanekud",
+      "metadescription": "Tutvu laenulepingu ja laenulepingu näidisega. Mida sisaldab üks laenuleping ja millele tähelepanu pöörata.",
+      "sisu": "Leht selgitab, mis on laenuleping ja miks see on oluline. Tutvustatakse laenulepingu tüüpilist sisu ning antakse näidis laenulepingust.",
+      "keywords": "laenuleping, laenulepingu näidis"
+    }
+  },
+  "creditors": {
+    "ferratum": {
+      "name": "Ferratum",
+      "title": "Ferratum - Kiirlaenud ja väikelaenud",
+      "description": "Ferratum pakub kiirlaene ja väikelaene eraisikutele. Laenusummad alates 100€ kuni 5000€, perioodiga 1 kuust kuni 36 kuuni.",
+      "slogan": "Kiire ja lihtne laenamine",
+      "amount": "100€ - 5000€",
+      "term": "1-36 kuud",
+      "interest": "alates 19.9%",
+      "benefits": [
+        "Kiire taotluse menetlemine",
+        "Raha 15 minuti jooksul",
+        "Taotlemine internetis 24/7",
+        "Ilma varjatud tasudeta"
+      ],
+      "url": "https://www.ferratum.ee"
+    },
+    "bondora": {
+      "name": "Bondora",
+      "title": "Bondora - P2P laenud ja investeeringud",
+      "description": "Bondora pakub P2P laene ja investeerimisvõimalusi. Laenusummad alates 500€ kuni 10000€, perioodiga 3 kuust kuni 60 kuuni.",
+      "slogan": "Laena ja investeeri targalt",
+      "amount": "500€ - 10000€",
+      "term": "3-60 kuud",
+      "interest": "alates 9.9%",
+      "benefits": [
+        "Paindlikud tagasimaksetingimused",
+        "Võimalus laenu ennetähtaegselt tagastada",
+        "Läbipaistev laenuprotsess",
+        "Fikseeritud intressimäär"
+      ],
+      "url": "https://www.bondora.ee"
+    },
+    "credit24": {
+      "name": "Credit24",
+      "title": "Credit24 - Kiirlaenud ja krediidilimiit",
+      "description": "Credit24 pakub kiirlaene ja krediidilimiiti. Laenusummad alates 100€ kuni 7500€, perioodiga 1 kuust kuni 48 kuuni.",
+      "slogan": "Raha kui vaja",
+      "amount": "100€ - 7500€",
+      "term": "1-48 kuud",
+      "interest": "alates 17.9%",
+      "benefits": [
+        "Krediidilimiit kuni 7500€",
+        "Raha kontol minutitega",
+        "Taotlemine Smart-ID või Mobiil-ID-ga",
+        "Paindlik tagasimaksegraafik"
+      ],
+      "url": "https://www.credit24.ee"
+    },
+    "boonuslaen": {
+      "name": "Boonuslaen",
+      "title": "Boonuslaen - Soodsad väikelaenud",
+      "description": "Boonuslaen pakub soodsaid väikelaene. Laenusummad alates 300€ kuni 3000€, perioodiga 3 kuust kuni 24 kuuni.",
+      "slogan": "Boonuslaen - sinu rahaline boonus",
+      "amount": "300€ - 3000€",
+      "term": "3-24 kuud",
+      "interest": "alates 21.9%",
+      "benefits": [
+        "Kiire laenuotsus",
+        "Raha kontol samal päeval",
+        "Lihtne taotlusprotsess",
+        "Püsiklientidele soodustused"
+      ],
+      "url": "https://www.boonuslaen.ee"
+    }
+  },
+  "loanTypes": {
+    "quickLoan": "Kiirlaen",
+    "smallLoan": "Väikelaen",
+    "consumerLoan": "Tarbimislaen",
+    "smsLoan": "SMS laen",
+    "renovationLoan": "Remondilaen",
+    "refinancingLoan": "Refinantseerimislaen",
+    "housingLoan": "Eluasemelaen",
+    "mortgageLoan": "Hüpoteeklaen",
+    "businessLoan": "Ärilaen",
+    "homeLoan": "Kodulaen",
+    "carLoan": "Autolaen",
+    "carLeasing": "Autoliising",
+    "studentLoan": "Õppelaen"
+  },
+  "faq": {
+    "title": "Korduma kippuvad küsimused",
+    "items": {
+      "general": [
+        {
+          "question": "Mis on laenu intressimäär?",
+          "answer": "Laenu intressimäär on protsent, mida laenuvõtja maksab laenuandjale laenatud raha kasutamise eest. See on tavaliselt väljendatud aastase protsendimäärana (APR) ja võib olla fikseeritud või muutuv."
+        },
+        {
+          "question": "Kuidas valida sobiv laen?",
+          "answer": "Sobiva laenu valimisel tuleks arvestada laenusummat, tagasimakseperioodi, intressimäära, kuumakset ja laenu kogukulu. Samuti on oluline võrrelda erinevate pakkujate tingimusi ja valida oma vajadustele vastav laenuliik."
+        },
+        {
+          "question": "Mis on krediidiskoor ja kuidas see mõjutab laenu saamist?",
+          "answer": "Krediidiskoor on number, mis peegeldab inimese krediidivõimelisust ja maksekäitumist. Kõrgem skoor näitab paremat maksekäitumist ja suurendab võimalust saada laenu soodsamate tingimustega. Madal skoor võib raskendada laenu saamist või tuua kaasa kõrgema intressimäära."
+        }
+      ],
+      "small-loan": [
+        {
+          "question": "Mis on väikelaen?",
+          "answer": "Väikelaen on väiksema summaga laen, tavaliselt vahemikus 100-5000 eurot, mida saab kasutada igapäevaste kulutuste, väiksemate ostude või ootamatute kulude katmiseks. Väikelaenud on tavaliselt lühema tagasimakseperioodiga kui suuremad laenud."
+        },
+        {
+          "question": "Kas väikelaenu saab võtta ilma tagatiseta?",
+          "answer": "Jah, enamik väikelaene on tagatiseta laenud, mis tähendab, et laenu saamiseks ei pea panustama kinnisvara või muud vara. Laenuotsus põhineb peamiselt laenuvõtja sissetulekul ja maksevõimel."
+        },
+        {
+          "question": "Kui kiiresti saab väikelaenu?",
+          "answer": "Väikelaenu taotluse menetlemine on tavaliselt kiire, mõnel juhul võib raha jõuda kontole juba samal päeval või isegi mõne tunni jooksul pärast taotluse esitamist. Täpne aeg sõltub laenuandjast ja taotluse esitamise ajast."
+        }
+      ],
+      "ferratum": [
+        {
+          "question": "Mis on Ferratumi laenude intressimäärad?",
+          "answer": "Ferratumi laenude intressimäärad algavad 19.9% aastas, kuid täpne intressimäär sõltub laenusummast, perioodist ja kliendi krediidiajaloost. Täpsema hinnapakkumise saamiseks on soovitatav täita taotlus Ferratumi veebilehel."
+        },
+        {
+          "question": "Kuidas taotleda Ferratumi laenu?",
+          "answer": "Ferratumi laenu saab taotleda nende veebilehel, täites taotlusvormi ja identifitseerides end Smart-ID või Mobiil-ID abil. Taotluse menetlemine on kiire ja positiivse otsuse korral kantakse raha kontole tavaliselt 15 minuti jooksul."
+        },
+        {
+          "question": "Kas Ferratum pakub laenu maksehäirega klientidele?",
+          "answer": "Ferratum hindab iga taotlust individuaalselt, kuid üldiselt ei paku laene klientidele, kellel on aktiivsed maksehäired. Laenuotsus põhineb kliendi maksevõimel ja krediidiajalool."
+        }
+      ],
+      "loan-agreement": [
+        {
+          "question": "Mis on laenulepingu olulised osad?",
+          "answer": "Laenulepingu olulised osad on laenusumma, intressimäär, tagasimakseperiood, kuumakse suurus, lepingu sõlmimise ja lõppemise kuupäevad, lepingutasu, viivise määr, lepingu ennetähtaegse lõpetamise tingimused ning poolte õigused ja kohustused."
+        },
+        {
+          "question": "Kas laenulepingut saab muuta?",
+          "answer": "Jah, laenulepingut saab muuta, kui mõlemad pooled (laenuandja ja laenuvõtja) on sellega nõus. Muudatused vormistatakse tavaliselt lepingu lisana või uue lepinguna. Ühepoolselt lepingut muuta ei saa, välja arvatud juhul, kui see on lepingus selgelt sätestatud."
+        },
+        {
+          "question": "Mis juhtub, kui laenulepingut ei täideta?",
+          "answer": "Kui laenuvõtja ei täida laenulepingut (nt ei maksa õigeaegselt), võib laenuandja nõuda viivist, lõpetada lepingu ennetähtaegselt, nõuda kogu laenu kohest tagasimaksmist või pöörduda kohtusse. Pikaajalised maksehäired võivad kahjustada krediidiajalugu ja raskendada tulevikus laenu saamist."
+        }
+      ]
+    }
+  },
+  "loanAgreement": {
+    "sampleTitle": "Laenulepingu näidis",
+    "sampleContent": "LAENULEPING nr. [number]\n\nSõlmimise kuupäev: [kuupäev]\nSõlmimise koht: [koht]\n\n1. LEPINGU POOLED\n1.1. Laenuandja: [nimi], isikukood/registrikood: [kood], aadress: [aadress], e-post: [e-post], telefon: [telefon]\n1.2. Laenuvõtja: [nimi], isikukood: [kood], aadress: [aadress], e-post: [e-post], telefon: [telefon]\n\n2. LEPINGU ESE\n2.1. Laenuandja annab Laenuvõtjale laenu summas [summa] eurot (edaspidi Laen).\n2.2. Laen antakse tähtajaga [tähtaeg] kuud.\n2.3. Laenu intressimäär on [intress]% aastas.\n2.4. Laenu eesmärk: [eesmärk].\n\n3. LAENU VÄLJAMAKSMINE\n3.1. Laenuandja kannab Laenu Laenuvõtja pangakontole [kontonumber] hiljemalt [kuupäev].\n\n4. LAENU TAGASIMAKSMINE\n4.1. Laenuvõtja kohustub Laenu tagasi maksma vastavalt käesolevale lepingule lisatud maksegraafikule.\n4.2. Laenuvõtjal on õigus Laen osaliselt või täielikult ennetähtaegselt tagasi maksta, teatades sellest Laenuandjale vähemalt [päevade arv] päeva ette.\n\n5. LEPINGU LÕPPEMINE\n5.1. Leping lõpeb, kui Laenuvõtja on täitnud kõik lepingust tulenevad kohustused.\n5.2. Laenuandjal on õigus leping üles öelda ja nõuda Laenu kohest tagasimaksmist, kui Laenuvõtja on viivitanud maksega rohkem kui [päevade arv] päeva.\n\n6. MUUD TINGIMUSED\n6.1. Lepingust tulenevad vaidlused lahendatakse läbirääkimiste teel. Kokkuleppe mittesaavutamisel lahendatakse vaidlused kohtus.\n6.2. Leping on koostatud kahes võrdset juriidilist jõudu omavas eksemplaris, millest üks jääb Laenuandjale ja teine Laenuvõtjale.\n\nLaenuandja: [allkiri]\nLaenuvõtja: [allkiri]"
+  },
+  "privacy": {
+    "title": "Privaatsuspoliitika",
+    "description": "Meie privaatsuspoliitika selgitab, kuidas me kogume, kasutame ja kaitseme teie isikuandmeid.",
+    "introduction": {
+      "title": "Sissejuhatus",
+      "content": "Käesolev privaatsuspoliitika selgitab, kuidas me kogume, kasutame ja kaitseme teie isikuandmeid, kui kasutate meie veebilehte ja teenuseid. Meie eesmärk on tagada teie andmete turvalisus ja läbipaistvus nende töötlemisel."
+    },
+    "dataCollection": {
+      "title": "Andmete kogumine",
+      "content": "Kogume teie kohta andmeid, kui täidate meie veebilehel vorme, registreerute kasutajaks, taotlete laenu või suhtlete meiega muul viisil. Kogutavad andmed võivad sisaldada:",
+      "items": [
+        "Isikuandmed (nimi, isikukood, sünniaeg)",
+        "Kontaktandmed (e-post, telefon, aadress)",
+        "Finantsandmed (sissetulek, kulud, olemasolevad laenud)",
+        "Tehniline info (IP-aadress, küpsised, seadme info)"
+      ]
+    },
+    "dataUsage": {
+      "title": "Andmete kasutamine",
+      "content": "Kasutame kogutud andmeid järgmistel eesmärkidel:",
+      "items": [
+        "Teie laenuvõimelisuse hindamiseks",
+        "Teie taotluste ja päringute töötlemiseks",
+        "Teiega suhtlemiseks ja teenuste pakkumiseks",
+        "Seadusest tulenevate kohustuste täitmiseks",
+        "Teenuste parendamiseks ja statistika koostamiseks"
+      ]
+    },
+    "cookies": {
+      "title": "Küpsised",
+      "content": "Meie veebileht kasutab küpsiseid, et pakkuda paremat kasutajakogemust, analüüsida veebilehe kasutust ja kohandada reklaame. Küpsiste kasutamist saate kontrollida oma veebilehitseja seadetes."
+    },
+    "rights": {
+      "title": "Teie õigused",
+      "content": "Teil on õigus:",
+      "items": [
+        "Tutvuda teie kohta kogutud andmetega",
+        "Parandada ebatäpseid andmeid",
+        "Nõuda andmete kustutamist",
+        "Piirata andmete töötlemist",
+        "Esitada vastuväiteid andmete töötlemisele",
+        "Nõuda andmete ülekandmist"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Kui teil on küsimusi või muresid seoses meie privaatsuspoliitikaga või teie andmete töötlemisega, võtke meiega ühendust e-posti aadressil info@loanfinder.ee või telefonil +372 5555 5555."
+    }
+  }
+}
