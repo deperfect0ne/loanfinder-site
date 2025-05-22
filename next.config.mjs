@@ -7,12 +7,11 @@ const nextConfig = {
     SMTP_USER: process.env.SMTP_USER,
     SMTP_PASS: process.env.SMTP_PASS,
   },
-  // при необходимости: настройка доменов для <Image>
   images: {
     domains: ['credits-site.com', 'another-cdn.com'],
   },
-  // включаем сжатие
   compress: true,
+  output: 'standalone', // сюда добавляем нужную опцию
 }
 
-module.exports = nextConfig
+export default nextConfig
