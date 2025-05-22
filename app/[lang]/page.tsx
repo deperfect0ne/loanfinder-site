@@ -14,11 +14,10 @@ import ContactForm from "@/components/contact-form"
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang: rawLang } = await params
+  const { lang: rawLang } = params
   const lang = i18n.locales.includes(rawLang) ? rawLang : i18n.defaultLocale
-
   const dict = await getDictionary(lang)
   const pageData = dict.pages["/"]
 
@@ -38,11 +37,10 @@ export async function generateMetadata({
 export default async function Home({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang: rawLang } = await params
+  const { lang: rawLang } = params
   const lang = i18n.locales.includes(rawLang) ? rawLang : i18n.defaultLocale
-
   const dict = await getDictionary(lang)
   const pageData = dict.pages["/"]
 
