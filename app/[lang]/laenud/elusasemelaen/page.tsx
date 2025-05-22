@@ -11,9 +11,9 @@ import ContactForm from "@/components/contact-form"
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
   const pageTitle = lang === "et" ? "Eluasemelaen" : "Жилищный кредит"
   const pageDescription =
@@ -36,9 +36,9 @@ export async function generateMetadata({
 export default async function HousingLoanPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
 
   const pageData = {

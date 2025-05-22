@@ -8,12 +8,14 @@ import SeoTextBlocks from "@/components/seo-text-blocks"
 import FaqSection from "@/components/faq-section"
 import ContactForm from "@/components/contact-form"
 
+const path = "/laenud/refinantseerimine"
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const pageTitle = lang === "et" ? "Refinantseerimislaen" : "Кредит на рефинансирование"
   const pageDescription =
     lang === "et"
@@ -26,7 +28,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${pageTitle} | LoanFinder`,
       description: pageDescription,
-      url: "/laenud/refinantseerimine",
+      url: path,
       siteName: "LoanFinder",
     },
   }
@@ -35,9 +37,9 @@ export async function generateMetadata({
 export default async function RefinancingLoanPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
 
   const pageData = {

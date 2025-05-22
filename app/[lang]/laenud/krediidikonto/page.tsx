@@ -1,3 +1,5 @@
+'use server'
+
 import type { Metadata } from "next"
 import { getDictionary, getFallbackPageData } from "@/lib/dictionaries"
 import SeoTextBlocks from "@/components/seo-text-blocks"
@@ -6,14 +8,15 @@ import CreditorsList from "@/components/creditors-list"
 import FaqSection from "@/components/faq-section"
 import ContactForm from "@/components/contact-form"
 
+const path = "/laenud/krediidikonto"
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/krediidikonto"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return {
@@ -32,11 +35,10 @@ export async function generateMetadata({
 export default async function CreditAccountPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/krediidikonto"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return (

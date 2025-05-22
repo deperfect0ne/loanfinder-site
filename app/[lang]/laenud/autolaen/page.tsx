@@ -12,9 +12,9 @@ import ContactForm from '@/components/contact-form'
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
   const path = '/laenud/autolaen'
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
@@ -35,9 +35,9 @@ export async function generateMetadata({
 export default async function CarLoanPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
   const path = '/laenud/autolaen'
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)

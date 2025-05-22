@@ -8,14 +8,16 @@ import SeoTextBlocks from "@/components/seo-text-blocks"
 import FaqSection from "@/components/faq-section"
 import ContactForm from "@/components/contact-form"
 
+const path = "/laenud/vaikelaen"
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const pageData = dict.pages["/laenud/vaikelaen"]
+  const pageData = dict.pages[path]
 
   return {
     title: pageData.metatitle,
@@ -24,7 +26,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageData.metatitle,
       description: pageData.metadescription,
-      url: "/laenud/vaikelaen",
+      url: path,
       siteName: "LoanFinder",
     },
   }
@@ -33,11 +35,11 @@ export async function generateMetadata({
 export default async function SmallLoanPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const pageData = dict.pages["/laenud/vaikelaen"]
+  const pageData = dict.pages[path]
 
   return (
     <main className="container mx-auto px-4 py-8">

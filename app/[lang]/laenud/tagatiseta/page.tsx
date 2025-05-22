@@ -9,6 +9,9 @@ import CreditorsList from "@/components/creditors-list"
 import FaqSection from "@/components/faq-section"
 import ContactForm from "@/components/contact-form"
 
+// Путь страницы в словаре
+const path = "/laenud/ilma-konto-valjavotteta"
+
 export async function generateMetadata({
   params,
 }: {
@@ -16,7 +19,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/ilma-konto-valjavotteta"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return {
@@ -39,7 +41,6 @@ export default async function LoanWithoutBankStatementPage({
 }) {
   const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/ilma-konto-valjavotteta"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return (

@@ -1,4 +1,3 @@
-// app/[lang]/laenud/valismaalt/page.tsx
 'use server'
 
 import type { Metadata } from "next"
@@ -9,14 +8,15 @@ import CreditorsList from "@/components/creditors-list"
 import FaqSection from "@/components/faq-section"
 import ContactForm from "@/components/contact-form"
 
+const path = "/laenud/valismaalt"
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }): Promise<Metadata> {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/valismaalt"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return {
@@ -35,11 +35,10 @@ export async function generateMetadata({
 export default async function ForeignLoanPage({
   params,
 }: {
-  params: Promise<{ lang: string }>
+  params: { lang: string }
 }) {
-  const { lang } = await params
+  const { lang } = params
   const dict = await getDictionary(lang)
-  const path = "/laenud/valismaalt"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return (
