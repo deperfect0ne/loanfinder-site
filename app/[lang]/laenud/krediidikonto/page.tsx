@@ -1,4 +1,3 @@
-// app/[lang]/laenud/krediidikonto/page.tsx
 import type { Metadata } from "next"
 import { getDictionary, getFallbackPageData } from "@/lib/dictionaries"
 import SeoTextBlocks from "@/components/seo-text-blocks"
@@ -10,9 +9,9 @@ import ContactForm from "@/components/contact-form"
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: string }
+  params: Promise<{ lang: string }>
 }): Promise<Metadata> {
-  const { lang } = params
+  const { lang } = await params
   const dict = await getDictionary(lang)
   const path = "/laenud/krediidikonto"
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
@@ -33,12 +32,11 @@ export async function generateMetadata({
 export default async function CreditAccountPage({
   params,
 }: {
-  params: { lang: string }
+  params: Promise<{ lang: string }>
 }) {
-  const { lang } = params
+  const { lang } = await params
   const dict = await getDictionary(lang)
   const path = "/laenud/krediidikonto"
-  // Берём данные из словаря, а если их нет — из fallback
   const pageData = dict.pages[path] || getFallbackPageData(path, lang)
 
   return (
