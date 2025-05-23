@@ -11,16 +11,16 @@ import ContactForm from "@/components/contact-form"
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: string }
+  params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
-  const { lang } = params
-  const dict = await getDictionary(lang)
+  const { lang } = await params;      // ← await here
+  const dict = await getDictionary(lang);
 
-  const pageTitle = lang === "et" ? "Ärilaen" : "Бизнес-кредит"
+  const pageTitle = lang === "et" ? "Ärilaen" : "Бизнес-кредит";
   const pageDescription =
     lang === "et"
       ? "Leia parim ärilaen Eestis. Võrdle intresse ja tingimusi."
-      : "Найдите лучший бизнес-кредит в Эстонии. Сравните проценты и условия."
+      : "Найдите лучший бизнес-кредит в Эстонии. Сравните проценты и условия.";
 
   return {
     title: `${pageTitle} | LoanFinder`,
@@ -31,16 +31,17 @@ export async function generateMetadata({
       url: "/laenud/arilaen",
       siteName: "LoanFinder",
     },
-  }
+  };
 }
+
 
 export default async function BusinessLoanPage({
   params,
 }: {
-  params: { lang: string }
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = params
-  const dict = await getDictionary(lang)
+  const { lang } = await params;      // ← await here
+  const dict = await getDictionary(lang);
 
   const pageData = {
     h1: lang === "et" ? "Ärilaen" : "Бизнес-кредит",
@@ -48,7 +49,7 @@ export default async function BusinessLoanPage({
       lang === "et"
         ? "Ärilaen on laen, mida kasutatakse äri alustamiseks, laiendamiseks või käibekapitali suurendamiseks. Ärilaenu tingimused sõltuvad äri suurusest, vanusest ja finantsseisust."
         : "Бизнес-кредит - это кредит, используемый для начала, расширения бизнеса или увеличения оборотного капитала. Условия бизнес-кредита зависят от размера, возраста и финансового состояния бизнеса.",
-  }
+  };
 
   return (
     <main className="container mx-auto px-4 py-8">
@@ -72,7 +73,7 @@ export default async function BusinessLoanPage({
         </section>
 
         <section className="my-16" aria-label="FAQ">
-          <FaqSection lang={lang} category="general" />
+          <FaqSection lang={lang} category="general" /> 
         </section>
 
         <section className="my-16" aria-label="Contact form">
